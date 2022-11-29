@@ -1,0 +1,111 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.attempt-input-table {
+    width: 50%;
+    min-width: 500px;
+    float: left;
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tr {
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 50px;
+    border: 1px silver solid;
+    border-radius: 15%;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+    text-transform: uppercase;
+}
+
+input[type=text]::selection {
+    background-color: transparent;
+    color: #000;
+}
+
+input[type=text]::-moz-selection {
+    background-color: transparent;
+    color: #000;
+}
+
+input[type=text]::-webkit-selection {
+    background-color: transparent;
+    color: #000;
+}
+
+input[type=text]::-ms-selection {
+    background-color: transparent;
+    color: #000;
+}
+
+.right-letter-wrong-place {
+    background-color: #f7e26d;
+}
+
+.right-letter-right-place {
+    background-color: rgb(95, 183, 79);
+}
+
+
+button {
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+}
+
+
+.suggested-word-outputs {
+    width: 40%;
+    min-width: 400px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: auto;
+    float: right;
+    margin: 0;
+    margin-top: 20px;
+}
+
+p {
+    width: 100px;
+}
